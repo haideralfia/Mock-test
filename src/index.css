@@ -1,28 +1,91 @@
+* {
+  margin: 0;
+}
+
+.app-container {
+  justify-content: center;
+  text-align: center;
+  background: url('https://media1.tenor.com/m/QNiDiabC3JAAAAAd/going-shopping-pembe.gif')
+    no-repeat fixed center;
+  background-size: cover;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
 .title-section {
+  padding: 30px;
+  justify-content: center;
+  text-align: center;
 }
 .title {
+  font-size: 70px;
+  font-weight: bold;
 }
+
 .input-section {
+  justify-content: center;
+  text-align: center;
 }
 .input {
+  justify-content: center;
+  text-align: center;
+  border: black;
+  height: 70px;
+  width: 300px;
+  font-size: 25px;
+  border-radius: 12px;
 }
 .add-button {
+  justify-content: center;
+  text-align: center;
+  height: 70px;
+  width: 100px;
+  border-radius: 12px;
+  background-color: rgb(74, 191, 104);
 }
 .add-text {
+  justify-content: center;
+  text-align: center;
+  font-size: 17px;
 }
 .list-section {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 50px;
 }
 .list-items {
+  justify-content: center;
+  text-align: center;
+  padding-right: 150px;
+  padding-left: 150px;
 }
 .list {
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  width: 350px;
+  padding: 8px 0px;
 }
 .list-element {
+  font-size: 40px;
 }
 .delete-button {
+  height: 65px;
+  margin-left: 50px;
+  border-radius: 16px;
+  background-color: rgb(191, 74, 74);
 }
 .delete-text {
+  font-size: 17px;
 }
 .footer-section {
+  position: fixed;
+  bottom: 0;
+  right: 48%;
 }
 .footer-text {
+  font-size: 20px;
+  font-weight: bold;
 }

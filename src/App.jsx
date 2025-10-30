@@ -15,8 +15,10 @@ import Title from './componenets/Title';
 function App() {
   return (
     <>
-      <Title />
-      <Body />
+      <main className="app-container">
+        <Title />
+        <Body />
+      </main>
     </>
   );
 }
